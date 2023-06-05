@@ -39,7 +39,7 @@ body {
 }
 
 .header {
-  background: linear-gradient(to right,#f8912c,#f14321);
+  background: linear-gradient(to right, #f8912c, #f14321);
   border-bottom: 1px solid #e84c28;
   display: flex;
   justify-content: flex-start;
@@ -48,20 +48,25 @@ body {
   font-size: 20px;
   min-height: 64px;
   color: #fff;
-  text-align: center;
-  padding-left: 3%;
 }
 
-.container {
+.header-text {
+  margin: auto;
+}
+
+.flag-container {
   display: flex;
   flex: 1;
 }
 
 .sidebar {
-  background-color: #555;
+  background-color: #1b365d;
   color: #fff;
   padding: 20px;
-  min-width: 200px;
+  min-width: 300px;
+}
+.submit-button {
+  margin-right: 1rem;
 }
 
 .body {
@@ -74,7 +79,6 @@ body {
   color: #fff;
   padding: 20px;
 }
-
 
 @keyframes App-logo-spin {
   from {
